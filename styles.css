@@ -1,0 +1,42 @@
+body {
+    display: grid;
+    grid-template-columns: 300px 1fr 1fr ;
+    grid-template-rows: auto 1fr ;
+    column-gap: 8rem;
+
+}
+
+#cards_container {
+grid-column: 3;
+grid-row: 1 / span 2;
+  
+}
+
+.card {
+    border : thick solid #0000FF;
+    width : 500px;
+    height : 300px;
+}
+
+.newbookbtncontainer {
+grid-row: 1 ;
+grid-column: 1;
+
+}
+
+.form_container {
+grid-column: 1;
+grid-row: 2
+
+
+
+}
+
+form {
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns: [first] 300px [line2] 100px  ;
+    gap :30px;
+  
+}
+
